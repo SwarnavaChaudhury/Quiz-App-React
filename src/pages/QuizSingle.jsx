@@ -9,6 +9,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
 import { userContext } from '../MainContext';
 import { TbReload } from "react-icons/tb";
+import Header from '../common/Header';
 
 
 
@@ -56,9 +57,11 @@ export default function QuizSingle() {
     return (
         <>
 
+            <Header />
+
             <ToastContainer />
 
-            <section className='w-full min-h-[100vh] border'>
+            <section className='w-full min-h-[100vh]'>
                 <div className='flex flex-col justify-center items-center container mx-auto py-[50px]'>
                     <div className='sticky top-0 p-5 bg-white border border-violet-600'>
                         {

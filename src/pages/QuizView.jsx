@@ -6,6 +6,7 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { IoLogOutOutline } from "react-icons/io5";
 import { ToastContainer, toast } from 'react-toastify';
 import { userContext } from '../MainContext';
+import Header from '../common/Header';
 
 
 
@@ -50,6 +51,8 @@ export default function QuizView() {
 
     return (
         <div>
+
+            <Header />
 
             <ToastContainer />
 

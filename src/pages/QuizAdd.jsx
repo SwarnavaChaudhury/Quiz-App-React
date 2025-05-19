@@ -3,6 +3,7 @@ import { FaGooglePlus } from "react-icons/fa";
 import { getDatabase, ref, set, onValue } from "firebase/database";
 import { firebase_app } from '../FirebaseConfig';
 import { ToastContainer, toast } from 'react-toastify';
+import Header from '../common/Header';
 
 
 
@@ -109,6 +110,8 @@ export default function QuizAdd() {
 
     return (
         <>
+
+            <Header />
 
             <ToastContainer />
 
